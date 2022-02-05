@@ -48,7 +48,7 @@ public class Customer {
              " frequent renter points";
      return result;
    }
-   private double amountFor(Rental each) {
+   private double amountFor(Rental aRental) {
       //Adicionar o trecho de código extraído.
       double thisAmount = 0;
       switch (each.getMovie().getPriceCode()) {
